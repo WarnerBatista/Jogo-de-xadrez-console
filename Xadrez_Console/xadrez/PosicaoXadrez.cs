@@ -13,7 +13,7 @@ namespace xadrez
         public PosicaoXadrez(char coluna, int linha)
         {
             this.coluna = coluna;
-            this.linha = coluna;
+            this.linha = linha;
         }
 
         public Posicao toPosicao()
